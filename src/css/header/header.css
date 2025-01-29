@@ -1,0 +1,26 @@
+header{
+    background: linear-gradient(245deg, #000000 ,rgb(61, 61, 166), rgb(50, 135, 135) ,#000000);
+    backdrop-filter: blur(20px);
+}
+
+.ul-list a{
+    transition: .1s ease-in-out;
+}
+
+.ul-list a:hover{
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(148, 148, 255);
+    border: solid 3px rgb(234, 218, 218);
+    padding: 5px;
+    text-decoration: none;
+}
+
+@media not all and (min-width: 640px) {
+    .ul-contenedor{
+        display: none;
+    }
+
+    .ul-contenedor-active{
+        display: flex;
+    }
+}
