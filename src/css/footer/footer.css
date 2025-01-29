@@ -1,0 +1,21 @@
+footer{
+    background: #000000;
+}
+
+.RepoEnlace{
+    background-color: #3838efc0 !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    padding: 5px !important;
+}
+
+.RepoEnlace:hover{
+    background-color: #3838efec !important;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 238px) and (max-width: 320px){
+    .contenedor-footer{
+        font-size: 15px;
+    }
+}

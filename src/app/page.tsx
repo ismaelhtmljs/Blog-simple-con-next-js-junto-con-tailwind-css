@@ -1,4 +1,5 @@
 import Header from '@/components/header/header'
+import Footer from '@/components/footer/footer';
 import '@/css/style.css'
 
 export default function Home() {
@@ -84,6 +85,7 @@ export default function Home() {
             </main>
           </div>
           {/* footer */}
+          <Footer/>
         </div>
       </div>
     </>

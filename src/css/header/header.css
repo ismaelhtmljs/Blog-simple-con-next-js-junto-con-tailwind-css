@@ -15,6 +15,12 @@ header{
     text-decoration: none;
 }
 
+@media only screen and (min-width: 238px) and (max-width: 320px){
+    .titulo h1{
+        font-size: 15px !important;
+    }
+}
+
 @media not all and (min-width: 640px) {
     .ul-contenedor{
         display: none;

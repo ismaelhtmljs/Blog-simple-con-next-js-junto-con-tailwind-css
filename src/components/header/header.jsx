@@ -14,7 +14,7 @@ export default function Header(){
 
     return(
         <header className=' p-4 flex sticky top-0'>
-            <div className=" w-full flex justify-between items-center max-sm:flex-col max-lg:flex-col">
+            <div className=" w-full flex justify-between items-center max-sm:flex-col max-lg:flex-col gap-[15px]">
                 <div className="titulo">
                     <h1 className='text-2xl playwrite max-sm:text-[17px]'>Practice Tailwind with Next js</h1>
                 </div>
