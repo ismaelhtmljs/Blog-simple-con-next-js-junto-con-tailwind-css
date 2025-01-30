@@ -26,9 +26,9 @@ export default function Header(){
                     <div className={`ul-contenedor${isMenuActive ? '-active' : ''}`}>
                         <ul className="ul-list list-none flex gap-4 font-sans max-sm:flex-col max-sm:text-center">
                             <li><Link href="/">Inicio</Link></li>
-                            <li><Link href="#">Página oficial de Tailwind Css</Link></li>
-                            <li><Link href="#">Lista</Link></li>
-                            <li><Link href="#">Repositorio del blog</Link></li>
+                            <li><Link href="/sections/pages/pagina-oficial">Página oficial de Tailwind Css</Link></li>
+                            <li><Link href="/sections/pages/List">Lista</Link></li>
+                            <li><Link href="https://github.com/ismaelhtmljs/Blog-simple-con-next-js-junto-con-tailwind-css">Repositorio del blog</Link></li>
                         </ul>
                     </div>
                 </nav>
